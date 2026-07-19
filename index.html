@@ -901,8 +901,8 @@
     autoActive = true;
     autoBtn.classList.add('active');
     autoBtn.setAttribute('aria-pressed', 'true');
-    autoLabel.textContent = 'AUTO SHUTTER · ON (every 3s)';
-    if(hintEl) hintEl.textContent = 'auto-capturing every 3 seconds — tap AUTO SHUTTER to stop';
+    autoLabel.textContent = 'AUTO SHUTTER · ON (every 1s)';
+    if(hintEl) hintEl.textContent = 'auto-capturing every 1 second — tap AUTO SHUTTER to stop';
     takePhoto();
     autoTimer = setInterval(takePhoto, AUTO_INTERVAL_MS);
   }
